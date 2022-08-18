@@ -5,289 +5,327 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-
-  <title>Project-11 Hosting Landing Page</title>
+  <link rel="stylesheet" href="resposive.css">
+  <title>Project-11 Test</title>
 </head>
 <body>
-  <nav>
-    <div class="logo-img">
-    <img  src="./images/logo.png" alt="" srcset="" >
-  </div>
-    <div>
-      <ul class="list">
-        <li class="list-items-active">Home</li>
-        <li class="list-items">Domain</li>
-        <li class="list-items">Hosting</li>
-        <li class="list-items">Features</li>
-        <li class="list-items">Pricing</li>
-        <li class="list-items">About Us</li>
-      </ul>
-      
-    </div>
-<div>
-  <button class="btn">Register Now</button>
-</div>
-  </nav>
-
-  <div class="section1">
-    <div class="flex1">
-      <h1>Great Websites Start<br>with Unlimited<br>Hosting</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Eos, dolor!<br>Lorem ipsum dolor, sit amet consectetur</p>
-
-      <button class="btn1">Choose Package</button>
-    </div>
-    <div class="flex2">
-      <img src="./images/image1.png" alt="" srcset="">
-    </div>
-  </div>
-
-  <div class="section2">
-    <div class="s2flex1">
-      <img src="./images/image2.png" alt="" srcset="">
-    </div>
-    <div class="s2flex2">
-      <h1>Great Websites Start<br>with Unlimited<br>Hosting</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Eos, dolor!<br>Lorem ipsum dolor, sit amet consectetur</p>
-
-      <button class="btn1">Choose Package</button>
-    </div>
-   
-  </div>
-
-
-  <div class="section3">
-    <div class="flex1">
-      <h1>Great Websites Start<br>with Unlimited<br>Hosting</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Eos, dolor!<br>Lorem ipsum dolor, sit amet consectetur</p>
-
-      <button class="btn1">Choose Package</button>
-    </div>
-    <div class="flex2">
-      <img src="./images/image3.png" alt="" srcset="">
-    </div>
-  </div>
-
-  <div class="section4">
-    <div class="s4flex1">
-      <h1>Service we provide<br>At thorHosting</h1>
-    </div>
-    <div class="s4flex2">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore repellendus<br> alias cupiditate et obcaecati omnis earum impedit, amet nihil laborum<br> dolores ea doloremque deleniti quia.</p>
-    </div>
-  </div>
-
-  <div class="section5">
-    <div class="s5item">
-      <img src="./images/item1.png" alt="" srcset="">
-      <h1>Unlimited Hosting</h1>
-      <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing<br> elit.</p>
-    </div>
-    <div class="s5item"> <img src="./images/item1.png" alt="" srcset="">
-      <h1>Unlimited Hosting</h1>
-      <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing<br> elit.</p></div>
-    <div class="s5item"> <img src="./images/item3.png" alt="" srcset="">
-      <h1>Unlimited Hosting</h1>
-      <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing<br> elit.</p></div>
-    <div class="s5item"> <img src="./images/item4.png" alt="" srcset="">
-      <h1>Unlimited Hosting</h1>
-      <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing<br> elit.</p></div>
-    <div class="s5item"> <img src="./images/item5.png" alt="" srcset="">
-      <h1>Unlimited Hosting</h1>
-      <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing<br> elit.</p></div>
-    <div class="s5item"> <img src="./images/item6.png" alt="" srcset="">
-      <h1>Unlimited Hosting</h1>
-      <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing<br> elit.</p></div>
-  </div>
-
-  <!-- section 6 -->
-  <div class="section6">
-    
-    <h1>Flexible & transparant pricing</h1>
-    <div class="subs6">
-      <!-- starter packs -->
-      <div class="subs6-item1">
-        <div class="bgcol">
-          <h2>starter packs</h2>
-          <h3>Suitable for beginners</h3>
+    <div class="container">
+<!-- nav items -->
+<header>
+    <div class="head">
+        <div class="logo">
+        <img src="./images/Logo.png" alt="" srcset="">
         </div>
-        <div class="s6content">
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Up to 50,000 Vistors/Month</p></div>
-          </div>
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Disk Space 500 MB</p></div>
-          </div>
-  
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Unlimited Bandwidth</p></div>
-          </div>
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Unlimited Database</p></div>
-          </div>
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>1 Domain</p></div>
-          </div>
-        </div>
+        <label for="toggle">
+            <div class="icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </label>
+    </div>
 
+    <input type="checkbox"  id="toggle">
+    <ul class="nav-links">
+        <li><a href="">Home</a></li>
+        <li><a href="">Domain</a></li>
+        <li><a href="">Hosting</a></li>
+        <li><a href="">Features</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href=""><button class="btn">Register Now</button></a></li>
+       
+       
         
-        <h1>$29.99<span>/month</span></h1>
-        <p>Cancel anytime</p>
-        <button class="s6btn">Choose Plan</button>
+       
+        
+    </ul>
+</header>
 
-      </div>
+<!-- section1 -->
+<div class="section1">
+  <div class="flex2-hide">
+    <img src="./images/image1.png" alt="" srcset="" class="flex2-img-1">
+  </div>
+  <div class="flex1">
+    <h1>Great Websites Start<br>with Unlimited<br>Hosting</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis in deleniti eum architecto sunt fugit quas nostrum repudiandae ea! Error eveniet aliquam </p>
+   
+    <div class="buttons">
+      <button class="btn1">Choose Packages</button>
+    </div>
 
-<!-- Popular packages -->
-      <div class="subs6-item2">
-        <div class="bgcol-active">
-        <h2>Popular packages</h2>
+  </div>
+  <div class="flex2">
+    <img src="./images/image1.png" alt="" srcset="" class="flex2-img">
+  </div>
+</div>
+
+<!-- section2 -->
+<div class="section2">
+  <div class="s2flex1">
+    <img src="./images/image2.png" alt="" srcset="" class="s2flex1-img">
+  </div>
+  <div class="s2flex2">
+    <h1>We provide the best<br>Quality with low cost</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis in deleniti eum architecto sunt fugit quas nostrum repudiandae ea! Error eveniet aliquam </p>
+
+    <div class="buttons">
+      <button class="btn1">Read More</button>
+    </div>
+  </div>
+ 
+</div>
+
+<!-- section3 -->
+
+
+
+<div class="section3">
+  <div class="flex2-hide">
+    <img src="./images/image3.png" alt="" srcset="" class="flex2-img-1">
+  </div>
+  <div class="flex1">
+    <h1>Number 1 Technical<br>Support in Indonesia</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis in deleniti eum architecto sunt fugit quas nostrum repudiandae ea! Error eveniet aliquam </p>
+   
+    <div class="buttons">
+      <button class="btn1">Choose Packages</button>
+    </div>
+
+  </div>
+  <div class="flex2">
+    <img src="./images/image3.png" alt="" srcset="" class="flex2-img">
+  </div>
+</div>
+
+<!-- section4 -->
+<div class="section4">
+  <div class="s4flex1">
+    <h1>Service we provide<br>At thorHosting</h1>
+  </div>
+  <div class="s4flex2">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt quam illum adipisci quibusdam laborum fugiat, atque ipsum veritatis nemo deserunt officia, voluptate obcaecati nulla suscipit doloremque odio ratione dolorum sequi!</p>
+  </div>
+</div>
+
+<!-- section5 -->
+
+<div class="section5">
+  <div class="s5item">
+    <img src="./images/item1.png" alt="" srcset="">
+    <h1>Unlimited Hosting</h1>
+    <p>Aliquam euismod blandit varius. Integer imperdiet ullamcorper tellus sed gravida. Nunc sit amet laoreet magna.</p>
+  </div>
+  <div class="s5item"> <img src="./images/item1.png" alt="" srcset="">
+    <h1>Cloud Hosting</h1>
+    <p>Aliquam euismod blandit varius. Integer imperdiet ullamcorper tellus sed gravida. Nunc sit amet laoreet magna.</p></div>
+  <div class="s5item1"> <img src="./images/item3.png" alt="" srcset="">
+    <h1>Worldpress Hosting</h1>
+    <p>Aliquam euismod blandit varius. Integer imperdiet ullamcorper tellus sed gravida. Nunc sit amet laoreet magna.</p></div>
+  <div class="s5item"> <img src="./images/item4.png" alt="" srcset="">
+    <h1>Fastest VPS</h1>
+    <p>Aliquam euismod blandit varius. Integer imperdiet ullamcorper tellus sed gravida. Nunc sit amet laoreet magna.</p></div>
+  <div class="s5item"> <img src="./images/item5.png" alt="" srcset="">
+    <h1>Domain</h1>
+    <p>Aliquam euismod blandit varius. Integer imperdiet ullamcorper tellus sed gravida. Nunc sit amet laoreet magna.</p></div>
+  <div class="s5item1"> <img src="./images/item6.png" alt="" srcset="">
+    <h1>Website Builder</h1>
+    <p>Aliquam euismod blandit varius. Integer imperdiet ullamcorper tellus sed gravida. Nunc sit amet laoreet magna.</p></div>
+</div>
+
+<!-- section 6 -->
+<div class="section6">
+    
+  <h1>Flexible & transparant pricing</h1>
+  <div class="subs6">
+    <!-- starter packs -->
+    <div class="subs6-item1">
+      <div class="bgcol">
+        <h2>starter packs</h2>
         <h3>Suitable for beginners</h3>
       </div>
-        <div class="s6content">
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Up to 50,000 Vistors/Month</p></div>
-          </div>
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Disk Space 500 MB</p></div>
-          </div>
-  
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Unlimited Bandwidth</p></div>
-          </div>
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Unlimited Database</p></div>
-          </div>
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>1 Domain</p></div>
-          </div>
+      <div class="s6content">
+        <div class="text-items">
+          <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+          <div class="txt-item2"><p>Up to 50,000 Vistors/Month</p></div>
+        </div>
+        <div class="text-items">
+          <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+          <div class="txt-item2"><p>Disk Space 500 MB</p></div>
         </div>
 
-        
-        <h1>$29.99<span>/month</span></h1>
-        <p>Cancel anytime</p>
-        <button class="s6btn-active">Choose Plan</button>
-
+        <div class="text-items">
+          <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+          <div class="txt-item2"><p>Unlimited Bandwidth</p></div>
+        </div>
+        <div class="text-items">
+          <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+          <div class="txt-item2"><p>Unlimited Database</p></div>
+        </div>
+        <div class="text-items">
+          <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+          <div class="txt-item2"><p>1 Domain</p></div>
+        </div>
       </div>
 
+      
+      <h1>$29.99<span>/month</span></h1>
+      <p class="subs6-item1-para">Cancel anytime</p>
+      <button class="s6btn">Choose Plan</button>
+
+    </div>
+
+<!-- Popular packages -->
+<div class="subs6-item1">
+  <div class="bgblack">
+    <h2>Popular packages</h2>
+    <h3>Suitable for Company, Organization</h3>
+  </div>
 
 
-      <!--business packs-->
-      <div class="subs6-item3">
-        <div class="bgcol">
-          <h2>business packs</h2>
-          <h3>Suitable for beginners</h3>
-        </div>
-        <div class="s6content">
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Up to 50,000 Vistors/Month</p></div>
-          </div>
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Disk Space 500 MB</p></div>
-          </div>
+  <div class="s6content-1">
+    <div class="text-items">
+      <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+      <div class="txt-item2"><p>Up to 50,000 Vistors/Month</p></div>
+    </div>
+    <div class="text-items">
+      <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+      <div class="txt-item2"><p>Disk Space 500 MB</p></div>
+    </div>
+
+    <div class="text-items">
+      <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+      <div class="txt-item2"><p>Unlimited Bandwidth</p></div>
+    </div>
+    <div class="text-items">
+      <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+      <div class="txt-item2"><p>Unlimited Database</p></div>
+    </div>
+    <div class="text-items">
+      <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+      <div class="txt-item2"><p>1 Domain</p></div>
+    </div>
+  </div>
+
   
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Unlimited Bandwidth</p></div>
-          </div>
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>Unlimited Database</p></div>
-          </div>
-          <div class="text-items">
-            <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
-            <div class="txt-item2"><p>1 Domain</p></div>
-          </div>
+  <h1>$59.99<span>/month</span></h1>
+  <p class="subs6-item1-para">Cancel anytime</p>
+  <button class="s6btn-active">Choose Plan</button>
+
+</div>
+
+
+
+    <!--business packs-->
+    <div class="subs6-item1">
+      <div class="bgcol">
+        <h2>business packs</h2>
+        <h3>Suitable for business Websites</h3>
+      </div>
+      <div class="s6content">
+        <div class="text-items">
+          <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+          <div class="txt-item2"><p>Up to 50,000 Vistors/Month</p></div>
+        </div>
+        <div class="text-items">
+          <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+          <div class="txt-item2"><p>Disk Space 500 MB</p></div>
         </div>
 
-        
-        <h1>$29.99<span>/month</span></h1>
-        <p>Cancel anytime</p>
-        <button class="s6btn">Choose Plan</button>
+        <div class="text-items">
+          <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+          <div class="txt-item2"><p>Unlimited Bandwidth</p></div>
+        </div>
+        <div class="text-items">
+          <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+          <div class="txt-item2"><p>Unlimited Database</p></div>
+        </div>
+        <div class="text-items">
+          <div class="txt-item"><img src="./images/tick1.png" alt="" srcset=""></div>
+          <div class="txt-item2"><p>1 Domain</p></div>
+        </div>
+      </div>
 
+      
+      <h1>$99.99<span>/month</span></h1>
+      <p class="subs6-item1-para">Cancel anytime</p>
+      <button class="s6btn">Choose Plan</button>
+
+    </div>
+  </div>
+</div>
+
+
+ <!-- section 7 -->
+ <div class="section7">
+  <div class="s7head">
+    <h1>Our customer Love us</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex fuga eveniet beatae ea atque aliquid sunt blanditiis quia repellat dignissimos!</p>
+  </div>
+
+  <div class="s7flex">
+    <div class="flex-items-active">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos, nemo quia magnam in odio natus at enim, incidunt et pariatur. Commodi libero, eius distinctio placeat at laboriosam sint magnam deleniti nam molestias similique provident, consectetur.</p>
+      <div class="sub-items">
+        <div class="s7items"><img src="./images/greycircle1.png" alt="" srcset=""></div>
+        <div class="s7items">
+          <h1>Michael Andrew</h1>
+          <p>CEO Apple Inc.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex-items">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos, nemo quia magnam in odio natus at enim, incidunt et pariatur. Commodi libero, eius distinctio placeat at laboriosam sint magnam deleniti nam molestias similique provident, consectetur.</p>
+      <div class="sub-items">
+        <div class="s7items"><img src="./images/greycircle1.png" alt="" srcset=""></div>
+        <div class="s7items">
+          <h1>Michael Andrew</h1>
+          <p>CEO Apple Inc.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex-items">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos, nemo quia magnam in odio natus at enim, incidunt et pariatur. Commodi libero, eius distinctio placeat at laboriosam sint magnam deleniti nam molestias similique provident, consectetur.</p>
+      <div class="sub-items">
+        <div class="s7items"><img src="./images/greycircle1.png" alt="" srcset=""></div>
+        <div class="s7items">
+          <h1>Michael Andrew</h1>
+          <p>CEO Apple Inc.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex-items">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos, nemo quia magnam in odio natus at enim, incidunt et pariatur. Commodi libero, eius distinctio placeat at laboriosam sint magnam deleniti nam molestias similique provident, consectetur.</p>
+      <div class="sub-items">
+        <div class="s7items"><img src="./images/greycircle1.png" alt="" srcset=""></div>
+        <div class="s7items">
+          <h1>Michael Andrew</h1>
+          <p>CEO Apple Inc.</p>
+        </div>
       </div>
     </div>
   </div>
-  <!-- section 6 ends -->
-  <!-- section 7 -->
-  <div class="section7">
-    <div class="s7head">
-      <h1>Our customer Love us</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex fuga eveniet beatae ea<br> atque aliquid sunt blanditiis quia repellat dignissimos!</p>
-    </div>
 
-    <div class="s7flex">
-      <div class="flex-items-active">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos, nemo quia magnam in odio natus at enim, incidunt et pariatur. Commodi libero, eius distinctio placeat at laboriosam sint magnam deleniti nam molestias similique provident, consectetur.</p>
-        <div class="sub-items">
-          <div class="s7items"><img src="./images/greycircle1.png" alt="" srcset=""></div>
-          <div class="s7items">
-            <h1>Michael Andrew</h1>
-            <p>CEO Apple Inc.</p>
-          </div>
-        </div>
-      </div>
-      <div class="flex-items">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos, nemo quia magnam in odio natus at enim, incidunt et pariatur. Commodi libero, eius distinctio placeat at laboriosam sint magnam deleniti nam molestias similique provident, consectetur.</p>
-        <div class="sub-items">
-          <div class="s7items"><img src="./images/greycircle1.png" alt="" srcset=""></div>
-          <div class="s7items">
-            <h1>Michael Andrew</h1>
-            <p>CEO Apple Inc.</p>
-          </div>
-        </div>
-      </div>
-      <div class="flex-items">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos, nemo quia magnam in odio natus at enim, incidunt et pariatur. Commodi libero, eius distinctio placeat at laboriosam sint magnam deleniti nam molestias similique provident, consectetur.</p>
-        <div class="sub-items">
-          <div class="s7items"><img src="./images/greycircle1.png" alt="" srcset=""></div>
-          <div class="s7items">
-            <h1>Michael Andrew</h1>
-            <p>CEO Apple Inc.</p>
-          </div>
-        </div>
-      </div>
-      <div class="flex-items">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos, nemo quia magnam in odio natus at enim, incidunt et pariatur. Commodi libero, eius distinctio placeat at laboriosam sint magnam deleniti nam molestias similique provident, consectetur.</p>
-        <div class="sub-items">
-          <div class="s7items"><img src="./images/greycircle1.png" alt="" srcset=""></div>
-          <div class="s7items">
-            <h1>Michael Andrew</h1>
-            <p>CEO Apple Inc.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+</div>
 
+ <!-- section 8 -->
+ <div class="section8">
+  <div class="flex-content">
+    <h1>Quit Worrying about<br>
+    Oce-Hosting services</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> repellendus dolor amet consectetu it amet.  </p>
   </div>
-    <!-- section 7 ends -->
-     <!-- section 8 -->
-    <div class="section8">
-      <div class="flex-content">
-        <h1>Quit Worrying about<br>
-        Oce-Hosting services</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> repellendus dolor amet consectetu it amet.  </p>
-      </div>
-      <div class="flex-btn">
-        <button class="s8btn">Register Now</button>
-      </div>
-    </div>
-     <!-- section 8 ends -->
-          <!-- footer section -->
+  <div class="flex-btn">
+    <button class="s8btn">Register Now</button>
+  </div>
+</div>
+
+     <!-- footer section -->
      <div class="footer">
       <div class="footer-item1">
-        <img src="./images/logo.png" alt="" srcset="">
-        <p class="s8para">Lorem ipsum dolor sit<br> amet consectetur adipisicing elit. <br> Similique, tempora!</p>
+        <img src="./images/logo.png" alt="" srcset="" class="footer-item1-img">
+        <p class="s8para">Lorem ipsum dolor sit<br> amet consectetur adipisicing elit. Similique, tempora!</p>
       </div>
       <div class="footer-item2">
         <h1>Menu</h1>
@@ -319,5 +357,8 @@
       </ul>
       </div>
      </div>
+    </div>
+    
+
 </body>
 </html>
